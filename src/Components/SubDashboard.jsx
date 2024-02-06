@@ -1,8 +1,7 @@
 import { Navigation } from "@mui/icons-material";
 import { useContext, useEffect, useState } from "react"
-
-import './Styles/SubDashboard.scss';
 import { UserContext } from "./Context/userContext";
+import './styles/SubDashboard.scss';
 
 export default function SubDashboard() {
     const {
@@ -103,7 +102,7 @@ export default function SubDashboard() {
                     <h4>{airPressure} <span>mb</span></h4>
                 </div>
 
-                <footer>created by <a href="https://github.com/heyitsashleyhere" target="_blank" rel="noreferrer">Ashley Jiang</a> - devChallenges.io</footer>
+                <footer>created by <a href="https://github.com/Nanoray22-dev/weather-app" target="_blank" rel="noreferrer">Raysell Concepcion</a> - devChallenges.io</footer>
             </div>
 
         </section>

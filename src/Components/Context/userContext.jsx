@@ -29,7 +29,7 @@ const [airPressure, setAirPressure] = useState('');
 const [isSearch, setIsSearch] = useState(false);
 
 useEffect(() => {
-    if(locationArray == []){
+    if(locationArray === []){
         setLocationArray([...locationArray, location]);
         localStorage.setItem('location', JSON.stringify(locationArray))
     }
