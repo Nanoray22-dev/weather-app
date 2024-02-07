@@ -2,22 +2,22 @@ import { MyLocation, Place } from "@mui/icons-material";
 import { useContext } from "react";
 import { UserContext } from "./Context/userContext.jsx";
 import "./Styles/MainDasboard.scss";
+// import cloudy from '../../public/images/Cloud-background.png';
 
 export default function MainDashboard() {
+  // const [weather, setWeather] = useState()
 
-   // const [weather, setWeather] = useState()
+  // const getWeather = async () =>{
+  //     const rs = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`);
+  //     const rsjson = await rs.json();
+  //     setWeather(rsjson.current)
 
-    // const getWeather = async () =>{
-    //     const rs = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`);
-    //     const rsjson = await rs.json();
-    //     setWeather(rsjson.current)
-        
-    // }
+  // }
 
-    // useEffect(() =>{
-    //     getWeather()
-    // }, [])
-    
+  // useEffect(() =>{
+  //     getWeather()
+  // }, [])
+
   const {
     location,
     setLocation,
@@ -53,12 +53,8 @@ export default function MainDashboard() {
         </div>
       </nav>
 
-      <section
-        className="img-section"
-        style={{
-          "background-image": `url('../../public/images/Cloud-background.png')`,
-        }}
-      >
+      <section className="img-section">
+      <div className="background-image"></div>
         <img src={ICONURL} alt={description} />
       </section>
 
