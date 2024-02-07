@@ -4,6 +4,20 @@ import { UserContext } from "./Context/userContext.jsx";
 import "./Styles/MainDasboard.scss";
 
 export default function MainDashboard() {
+
+   // const [weather, setWeather] = useState()
+
+    // const getWeather = async () =>{
+    //     const rs = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`);
+    //     const rsjson = await rs.json();
+    //     setWeather(rsjson.current)
+        
+    // }
+
+    // useEffect(() =>{
+    //     getWeather()
+    // }, [])
+    
   const {
     location,
     setLocation,
@@ -42,7 +56,7 @@ export default function MainDashboard() {
       <section
         className="img-section"
         style={{
-          backgroundImage: `url('/images/Cloud-background-dimmed.png')`,
+          "background-image": `url('../../public/images/Cloud-background.png')`,
         }}
       >
         <img src={ICONURL} alt={description} />

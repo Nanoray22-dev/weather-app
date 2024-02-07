@@ -4,6 +4,20 @@ import { UserContext } from "./Context/userContext";
 import './styles/SubDashboard.scss';
 
 export default function SubDashboard() {
+
+    // const [weather, setWeather] = useState()
+
+    // const getWeather = async () =>{
+    //     const rs = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`);
+    //     const rsjson = await rs.json();
+    //     setWeather(rsjson.current)
+        
+    // }
+
+    // useEffect(() =>{
+    //     getWeather()
+    // }, [])
+
     const {
         location,
         unit, setUnit,
@@ -55,6 +69,7 @@ export default function SubDashboard() {
                         <div className={`forecast-${i}`} key={`forecast-${i}`}>
                             <p>{i === 0 ? `Tomorrow` : timeConverter(d.dt)}</p>
                             <img src={`http://openweathermap.org/img/wn/${d.weather[0].icon}@2x.png`} alt={d.weather[0].main} />
+
                             <div className="temp-wrapper">
                                 <p className="max-temp">{Math.round(d.temp.max)}{unit === 'metric' ? `°C` : `°F`}</p>
                                 <p className="min-temp">{Math.round(d.temp.min)}{unit === 'metric' ? `°C` : `°F`}</p>
@@ -63,6 +78,10 @@ export default function SubDashboard() {
                     )
                 })}
             </div>
+            
+
+
+
 
             <div className="highlights-wrapper">
                 <h5>Todays Highlights</h5>
