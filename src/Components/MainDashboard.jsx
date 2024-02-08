@@ -40,7 +40,7 @@ export default function MainDashboard() {
       </nav>
 
       <section className="img-section"
-      style={{backgroundImage: `url('/images/Cloud-background.png')`}}>
+      style={{backgroundImage: `url('/images/Cloud-background-dimmed.png')`}}>
         
         <img src={ICONURL} alt={description} />
       </section>
