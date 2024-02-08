@@ -1,7 +1,7 @@
 import { MyLocation, Place } from "@mui/icons-material";
 import { useContext } from "react";
 import { UserContext } from "./Context/userContext.jsx";
-import "./Styles/MainDasboard.scss";
+import "./Styles/MainDasboard.css";
 // import cloudy from "../../public/images/Cloud-background.png"
 export default function MainDashboard() {
   const {
