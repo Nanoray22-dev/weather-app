@@ -1,7 +1,7 @@
 import { Navigation } from "@mui/icons-material";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "./Context/userContext";
-import "./styles/SubDashboard.scss";
+import "./Styles/SubDashboard.scss";
 
 export default function SubDashboard() {
   const {
