@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 
 import { Close, NavigateNext, Search } from "@mui/icons-material";
-import './styles/Search.css';
+import './Styles/search.css';
 import { UserContext } from "./Context/userContext";
 
 export default function SearchSection() {
