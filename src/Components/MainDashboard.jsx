@@ -18,7 +18,7 @@ export default function MainDashboard() {
 
   function handleSearchToggle() {
     setIsSearch(!isSearch);
-    console.log(isSearch);
+    // console.log(isSearch);
   }
 
   function handleMyLocation() {
@@ -39,10 +39,9 @@ export default function MainDashboard() {
         </div>
       </nav>
 
-      <section className="img-section">
-        <div className="background-image">
-          {/* <img src={cloudy} alt='' /> */}
-        </div>
+      <section className="img-section"
+      style={{backgroundImage: `url('/images/Cloud-background.png')`}}>
+        
         <img src={ICONURL} alt={description} />
       </section>
 
