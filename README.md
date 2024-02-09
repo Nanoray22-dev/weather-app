@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](![alt text](<Screen Sho 2024-02-09 at 10.44.34 AM.png>))
+![screenshot](![alt text](<Screen Shot 2024-02-09 at 10.44.34 AM.png>))
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -88,4 +88,4 @@ $ npm run dev
 
 - Website [your-website.com](https://weather-app-2sae.vercel.app/})
 - GitHub [@your-username](https://github.com/Nanoray22-dev/weather-app})
-
+- Twitter [@your-twitter](https://{twitter.com/})
