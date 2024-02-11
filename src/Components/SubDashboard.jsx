@@ -116,7 +116,7 @@ export default function SubDashboard() {
             );
           })}
       </div>
-
+{/* esta es el panel */}
       <div className="highlights-wrapper">
         <h5>Todays Highlights</h5>
 
